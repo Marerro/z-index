@@ -14,11 +14,13 @@ body {
     align-items:center;
     justify-content: center;
     position:relative;
-    z-index:1
+    z-index:1;
 }
 
-.banner::after {
+.banner:hover::after {
+    content:"";
     position:absolute;
     z-index:2;
     background-color: gold;
+    height:30vw;
 }
